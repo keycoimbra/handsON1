@@ -38,6 +38,7 @@ a{                                  /*mudar a cor dos links*/
   color: white;
   
 }
+.section1
 main{
   align-items: center;
   justify-content: space-between;
@@ -74,8 +75,7 @@ form [type="text"]{
   font-family: ubuntu; 
   text-align: center;
   height: 20px;
-  width: 216px;
-  
+  width: 216px;  
   background-color: white;
   font-weight: normal;
   
@@ -85,12 +85,19 @@ input{
   border-radius: 62px;
   width: 268px;
   height: 51px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
 
 img{
   width: 10px;
 }
 
-  
+.section2
+
+
+
+
 
 
 
