@@ -60,7 +60,7 @@ p{
   color: #555555
 }
 
-.button1{}
+.button1
 input{
   border: 2px solid #FF4081;
   border-radius: 50px;
@@ -70,23 +70,39 @@ input{
   padding-bottom: 5px;
   padding-left: 20%;
   font-size: 20px;
-img{
-  width: 5px;
 }
-}
+
 
 /*section 2*/
 .sec2{
   display: flex;
-  background-color: rgb(180, 249, 61);
-
-img{
-  width: 200px;
+  background-color: #555555;
 }
 h1{
-  color: #FF4081;
+  color: #FF4081
 }
 p{
-  color:#000000;
+  color: black;
 }
+
+.button2
+button{
+  background-color: #FF4081;
+  border: 2px solid #FF4081;
+  border-radius: 50px;
+  width: 200px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px white;
+  font-family: ubuntu;
+  color: white;
+  text-align: center;
+}
+a{
+  font-family: ubuntu;
+  color:white;
+  text-decoration: none;
+}
+
 
