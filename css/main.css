@@ -4,7 +4,6 @@ body {
   padding: 0px;
   font-family: 'Ubuntu', sans-serif;
 }
-
 header {
   display: flex;
   align-items: center;
@@ -33,8 +32,6 @@ header
         font-family: ubuntu;
         color: white;
 }
-.section1
-
 main{
   align-items: center;
   justify-content: space-between;
@@ -42,12 +39,8 @@ main{
   background: white;
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-}
-h1{
+ }
+.tit1{
     font-family: ubuntu; 
     font-size: 60px;
     margin-bottom: 10px;
@@ -57,35 +50,50 @@ h1{
     color: #FF4081
   }
 p{
-      font-family: ubuntu; 
-      font-size: 27px;
-      line-height: normal;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      font-weight: 400px;
-      font-family: ubuntu;
-      color: #555555
-}
-form [type="text"]{
   font-family: ubuntu; 
-  text-align: center;
-  height: 20px;
-  width: 216px;  
-  background-color: white;
-  font-weight: normal;
-  
+  font-size: 27px;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 400px;
+  font-family: ubuntu;
+  color: #555555
 }
-input{
-  border: 2px solid #FF4081;
+.button1{
+  cursor: pointer;
+  margin-top: 20px;
   border-radius: 62px;
-  width: 268px;
-  height: 51px;
-  padding-top: 5px;
-  padding-bottom: 5px;
- 
+  border: 2px solid #FF4081;
+  padding: 20px;
+  background-color: #F7F7F7;
+}
+.button1 a{
+  text-decoration: none;
+  color: #FF4081;
+  font-size: 27px;
+}
 
 img{
-  width: 10px;
+  width: 5px;
+}
+
+
+/*section 2*/
+.sec2{
+  display: flex;
+  background-color: #F7F7F7;
+}
+img{
+  width: 200px;
+}
+h1{
+  color: #FF4081;
+}
+p{
+  color:#000000;
+}
+.botton2{
+  background: #FF4081;
 }
 
 
@@ -94,9 +102,4 @@ img{
 
 
 
-
-
-
-}
-  
-
+.
