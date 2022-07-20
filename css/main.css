@@ -59,30 +59,27 @@ p{
   font-family: ubuntu;
   color: #555555
 }
-.button1{
-  cursor: pointer;
-  margin-top: 20px;
-  border-radius: 62px;
-  border: 2px solid #FF4081;
-  padding: 20px;
-  background-color: #F7F7F7;
-}
-.button1 a{
-  text-decoration: none;
-  color: #FF4081;
-  font-size: 27px;
-}
 
+.button1{}
+input{
+  border: 2px solid #FF4081;
+  border-radius: 50px;
+  width: 200px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20%;
+  font-size: 20px;
 img{
   width: 5px;
 }
-
+}
 
 /*section 2*/
 .sec2{
   display: flex;
-  background-color: #F7F7F7;
-}
+  background-color: rgb(180, 249, 61);
+
 img{
   width: 200px;
 }
@@ -92,14 +89,4 @@ h1{
 p{
   color:#000000;
 }
-.botton2{
-  background: #FF4081;
-}
 
-
-
-
-
-
-
-.
