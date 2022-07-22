@@ -32,14 +32,15 @@ header
         font-family: ubuntu;
         color: white;
 }
+.sec1
 main{
   align-items: center;
   justify-content: space-between;
-  padding: 20px 300px 300px 200px; 
+  padding: 50px 300px 50px 200px; 
   background: white;
   display: flex;
-  flex-direction: row;
- }
+  flex-direction: row;}
+ 
 .tit1{
     font-family: ubuntu; 
     font-size: 60px;
@@ -49,18 +50,18 @@ main{
     font-family:ubuntu; 
     color: #FF4081
   }
-p{
-  font-family: ubuntu; 
-  font-size: 27px;
-  line-height: normal;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-weight: 400px;
-  font-family: ubuntu;
-  color: #555555
-}
+  .test1{
+    font-family: ubuntu; 
+    font-style:normal;
+    font-size: 27px;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+    font-family: ubuntu;
+  }
 
-.button1
+  .button1
 input{
   border: 2px solid #FF4081;
   border-radius: 50px;
@@ -73,16 +74,21 @@ input{
 }
 
 
+
 /*section 2*/
 .sec2{
   display: flex;
   background-color: #555555;
+  padding: 50px 300px 50px 200px;
 }
 h1{
-  color: #FF4081
+  color: #FF4081;
 }
+
 p{
-  color: black;
+  color:yellow;
+  font-family: ubuntu;
+  font-size: 20px
 }
 
 .button2
@@ -103,6 +109,8 @@ a{
   font-family: ubuntu;
   color:white;
   text-decoration: none;
+  width: 20px;
 }
+
 
 
