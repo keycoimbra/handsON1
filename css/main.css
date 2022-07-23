@@ -1,116 +1,28 @@
-html,
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 103px 26px 82px;
-  background: #2E948A;
-  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+/* style do header */
+.header {
+    background-color: #2e948a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
 }
-header
-    .nav{
-        display: flex;
-        list-style: none;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 0px;
-         }
-header
-    .nav > li {
-        padding: 0px 10px;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 23px;
-        text-transform: uppercase;
-        font-family: ubuntu;
-        color: white;
+.header img {
+    max-width: 180px;
+    height: auto;
 }
-.sec1
-main{
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 300px 50px 200px; 
-  background: white;
-  display: flex;
-  flex-direction: row;}
- 
-.tit1{
-    font-family: ubuntu; 
-    font-size: 60px;
-    margin-bottom: 10px;
-    line-height: normal;
+
+.header a {
+    margin: 30px;
+    text-decoration: none;
+    color: #ffffff;
     font-weight: 700;
-    font-family:ubuntu; 
-    color: #FF4081
-  }
-  .test1{
-    font-family: ubuntu; 
-    font-style:normal;
-    font-size: 27px;
-    line-height: normal;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-weight: 400px;
-    font-family: ubuntu;
-  }
-
-  .button1
-input{
-  border: 2px solid #FF4081;
-  border-radius: 50px;
-  width: 200px;
-  height: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20%;
-  font-size: 20px;
 }
-
-
-
-/*section 2*/
-.sec2{
-  display: flex;
-  background-color: #555555;
-  padding: 50px 300px 50px 200px;
-}
-h1{
-  color: #FF4081;
-}
-
-p{
-  color:yellow;
-  font-family: ubuntu;
-  font-size: 20px
-}
-
-.button2
-button{
-  background-color: #FF4081;
-  border: 2px solid #FF4081;
-  border-radius: 50px;
-  width: 200px;
-  height: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 20px white;
-  font-family: ubuntu;
-  color: white;
-  text-align: center;
-}
-a{
-  font-family: ubuntu;
-  color:white;
-  text-decoration: none;
-  width: 20px;
-}
-
-
-
