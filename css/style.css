@@ -213,8 +213,6 @@ input{
     color: #FF4081;
 }
 
-
-
 /* media query do index */
 
 @media only screen and (max-width: 767px) {
@@ -421,5 +419,8 @@ input{
         padding: 14px;
         font-size: 24px;
     }
-    
+}
+
+.pagina2.1{
+    display: flex;
 }
